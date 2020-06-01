@@ -1,0 +1,15 @@
+Cameron Saifizadeh
+A SIMPLE ROUTER
+
+
+This project was designed to create a  topology with a local network of hosts, and one rogue host that must
+have a specific set of packets to be dropped, in order to keep it from being malicious
+
+FILES I HAVE INCLUDED:
+
+final_skel.py
+This file is the topology of the hosts and switches set by the mini net for the project
+
+finalcontroller_skel.py
+this is the redirection and routing algorithm used to keep the malicious host from manipulating the server
+while also giving direct locations for switches to send packets towards based on the destination ip
